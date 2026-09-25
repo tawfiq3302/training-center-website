@@ -1,0 +1,892 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+margin: 0%;
+padding: 0%;
+
+}
+.background-image{
+ width: 100% ;
+ max-height: 300px; 
+ transition: 0.5s;
+}
+
+.background-image:hover{
+opacity: 0.88;
+
+}
+.pagehome-link{
+    position:relative;
+    top: -65px;  
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 13px;
+    background-color: #076a6e;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+    
+}
+@media (max-width: 600px) {
+    .pagehome-link{
+       
+        padding: 3px 4px;
+       
+    }
+}
+.pagehome-link:hover{
+   
+    transform: scale(1.1);
+    background-color: #21a9af;
+}
+
+
+.pagehome-nav{
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 1px;
+}
+
+
+ .background-imageHome1 {
+    position: absolute;
+margin-top: -62px;
+width: 100%;
+height: 850px;
+max-height: 1500px;
+border-top: 4px solid #076a6e;
+
+} 
+
+@media (max-width: 399px) {
+    .background-imageHome1 {
+        height: 1400px;
+    }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+    .background-imageHome1 {
+        height: 1000px;
+    }
+}
+
+
+
+.page-information {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+}
+@media (max-width: 299px) {
+    .page-information {
+        top: 120px;
+    }
+}
+@media (min-width: 300px) and (max-width: 399px) {
+    .page-information {
+        top: 160px;
+    }
+}
+@media (min-width: 400px) and (max-width: 499px) {
+    .page-information {
+        top: 220px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .page-information {
+        top: 240px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .page-information {
+        top: 300px;
+    }
+}
+
+h1{
+    color: #076a6e;
+    font-size: 35px;
+    position: relative;
+    left: 20px;
+    margin-top: 15px;
+    text-shadow: 2px 2px 4px #21a9af;
+    width: 80%;
+}
+
+p{
+    font-weight: bolder;
+    color: #28979c;
+    font-size: 25px;
+    position: relative;
+    left: 40px;
+    width: 80%;
+    max-width: 1200px;
+    font-style: oblique;
+    text-shadow: 2px 2px 4px;
+}
+    
+   
+
+
+ul{
+    color: #28979c;
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+    margin-top: 15px;
+    font-style: oblique;
+    text-shadow: 2px 2px 4px;
+    font-weight: bolder;
+    width: 80%;
+}
+
+ol{
+    color: #28979c;
+    font-size: 25px;
+    position: relative;
+    left: 20px;
+    margin-top: 15px;
+    font-style: oblique;
+    text-shadow: 2px 2px 4px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.back-button1{
+    position: absolute;
+    bottom: 5%;
+    right: 5% ;
+    color: white;
+    background-color: #076a6e;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    transform: rotate(-90deg);
+    transition: 0.8s;
+  
+}
+
+@media (max-width: 450px) {
+    .back-button1 {
+       
+        position: absolute;
+        bottom: 5%;
+        right: 3%;
+        color: white;
+        background-color: #076a6e;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 30px;
+        text-decoration: none;
+        transform: rotate(-90deg);
+        transition: 0.8s;
+    }}
+
+
+
+    hr {
+     border: none;
+    height: 6px;
+    background-color: #076a6e;
+    width: 90%;
+    margin: 20px auto;
+    }
+
+
+  /* This style for courses page */
+#image{
+    position: absolute;
+    height: 1060px;
+    max-height: 2300px;
+    width: 100%;
+    margin-top: -62px;
+    border-top: 4px solid  #076a6e;
+    
+}
+
+
+.white-card-of-html{
+    
+    width: 390px;
+    height: 470px;
+    background-color: white;
+    color: white;
+   
+    border-radius: 15px;
+   
+}
+
+.course-image{
+    position: relative;
+    width: 380px;
+    height: 200px;
+    top: 5px;
+    left: 5px;
+    border-radius: 15px;
+    object-fit: cover;
+  
+}
+  
+ .text-of-courses h2{
+    color: #076a6e;
+    position: relative;
+    left: 12px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px #21a9af;
+    width: 380px;
+     font-size: 15px;
+
+}
+.text-of-courses .id-link{
+    /* text-decoration: none; */
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #21a9af;
+    font-size: 30px;
+    font-weight: bolder;
+    display: inline-block;
+    background-color: #076a6e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .8s;
+    display: block;
+    width: 240px;
+    position: relative;
+    left: 10px;
+    
+   
+}
+
+.text-of-courses .id-link:hover{
+    transform: scale(1.05);
+   
+
+}
+.text-of-courses .flex-link{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.white-card-of-css{
+
+     width: 390px;
+    height: 470px;
+    background-color: white;
+    color: white;
+   
+    border-radius: 15px;
+   
+}
+
+
+
+.white-card-of-javascript{
+
+     width: 390px;
+    height: 470px;
+    background-color: white;
+    color: white;
+   
+    border-radius: 15px;
+   
+}
+
+
+.white-card-of-java{
+
+     width: 390px;
+    height: 470px;
+    background-color: white;
+    color: white;
+
+    border-radius: 15px;
+   
+}
+
+
+.all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+
+@media (max-width: 840px) {
+    #image{
+        height: 2200px;
+    }
+}
+
+@media (max-width: 600px) {
+   .white-card-of-html  {
+    
+    width: 300px; 
+    height: 490px;
+    
+
+}
+}
+
+
+@media (max-width: 600px) {
+   .course-image  {
+    
+    width: 290px; 
+    height: 200px;
+
+}
+}
+
+
+@media (max-width: 600px) {
+   .white-card-of-css  {
+    
+    width: 300px; 
+    height: 510px;
+    
+
+}
+}
+
+
+
+@media (max-width: 600px) {
+   .white-card-of-javascript  {
+    
+    width: 300px; 
+    height: 530px;
+
+}
+}
+
+
+
+
+@media (max-width: 600px) {
+   .white-card-of-java  {
+    
+    width: 300px; 
+    height: 490px;
+
+}
+}
+@media (max-width: 600px) {
+   .text-of-courses h2 {
+    
+    width: 280px; 
+    
+
+}
+}
+
+
+
+
+
+/* this style for schedule page */
+
+/* 
+.schedule-home-image{
+    position: absolute;
+    width: 100%;
+     margin-top: -62px;
+    border-top:  solid #076a6e 4px;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    max-height: 1500px;
+  
+} */
+.schedule-page{
+    position: relative;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.video-background {
+    position: absolute;
+    top: -12%;
+    left: 0;
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    border-top:  solid #076a6e 4px;
+    max-height: 1500px;
+    z-index: 0;
+}
+.table-container{
+    
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: auto;
+
+}
+
+.table {
+    border-collapse: collapse;
+    
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: #8bbfc1;
+    
+}
+
+
+
+.table th,
+.table td {
+    border: 2px solid #076a6e;
+   
+    
+}
+
+
+
+
+.table th{
+background-color:#0e999f;
+}
+
+.table td{
+    background-color: #e8f7f7;
+}
+.table tbody tr:nth-child(even) td{
+    background-color: #d5eeee;
+}
+.table tbody tr:first-child td {
+    font-weight: bold;
+}
+.table tbody tr:last-child td {
+    font-weight: bold;
+}
+
+.table th:hover{
+    transition: .9s;
+background-color:#3eb0b3;
+}
+
+.table td:hover{
+    transition: .9s;
+background-color:#b8e3e4;
+}
+
+.full:hover{
+    transition: .9s;
+    background-color: #0e0eb4 !important;
+}
+
+.registration-stop:hover{
+
+     transition: .9s;
+    background-color: #d80909 !important;
+}
+.available:hover{
+     transition: .9s;
+    background-color: green !important;
+}
+
+
+
+
+/* this style for register page */
+
+
+.register-home-image{
+    width: 100%;
+    position: absolute;
+    margin-top: -62px;
+    height: 1700px;
+    border-top: solid 4px #076a6e ;
+    max-height: 2200px;
+}
+
+@media (max-width: 800px) {
+    .register-home-image{
+        height: 2100px;
+    }
+}
+
+@media (min-width:1500px) and (max-width: 2600px) {
+    .register-home-image{
+        height: 1900px;
+        
+    }
+}
+
+.form-login{
+    position: relative;
+    background-color:rgb(8, 191, 193);
+    width: 700px;
+    border-radius: 8px 8px 8px 8px;
+    margin: 0 auto;
+    height: 1020px;
+    max-height: 2000px;
+   
+}
+
+@media (max-width: 700px) {
+    .form-login{
+        height: 1400px;
+        width: 90%;
+    
+    }
+}
+
+
+label{
+   
+    color: white;
+    font-size: 29px;
+    background-color: #076a6e;
+    border-radius: 4px ;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    
+
+}
+
+@media (max-width: 700px) {
+    label{
+        font-size: 20px;
+        left: -7%;
+        white-space: nowrap;
+    }
+     
+}
+
+.date-field {
+    display: inline-block;
+}
+@media (max-width: 700px) {
+    .date-field {
+        position: relative;
+        top: 1%;
+        
+    }
+}
+
+
+
+.after::after{
+    content: "*";
+    color: #d80909;
+}
+
+
+.inputs1{
+   
+    width: 210px;
+    height: 39px;
+    margin-left: 10px;
+    position: relative;
+    top: 4px;
+    border: solid #e8f7f7 3px;
+    border-radius: 4px ;
+    background-color:#8bbfc1;
+    
+
+}
+input[type="email"] {
+    letter-spacing: 1px;
+}
+@media (max-width: 700px) {
+    .inputs1{
+        width: 165px;
+        height: 30px;
+      left: -7%;
+    }
+}
+.inputs1::placeholder{
+    font-size: 20px;
+    color: white;
+    padding: 4px;
+}
+.inputs1:focus {
+    outline: none;
+}
+
+select{
+    width: 110px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: #8bbfc1;;
+    color: aliceblue;
+    border: solid #e8f7f7 3px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+select{
+    outline: none;
+}
+option{
+color: #e8f7f7;
+}
+
+h3{
+    
+    
+    background-color: #076a6e;
+    width: 75px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+
+}
+
+.gender{
+    
+    background-color: #8bbfc1;
+
+}
+
+@media (max-width: 700px) {
+    .gender{
+        position: relative;
+        left: -2%;
+    }
+}
+
+.skills{
+
+    background-color: #8bbfc1;
+
+}
+@media (max-width: 700px) {
+    .skills{
+        display: block;
+        margin-bottom: 8px;
+        width: 60%;
+        position: relative;
+        top: -2.5%;
+        margin-left: 10%;
+        
+    }
+}
+
+@media (max-width: 700px) {
+    .skills{
+        position: relative;
+        left: -2%;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .skill-break {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .file-inputs{
+    color: white;
+    font-size: 29px;
+    background-color: #076a6e;
+    border-radius: 4px ;
+    margin-left: 10px;
+    position: relative;
+    top: -70px;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+.file-input{
+    position: relative;
+    left: 10px;
+    top: -4%;
+    width: 65%;
+    height: 20px;
+    background-color: #8bbfc1;
+    color: white;
+    border-radius: 5px;
+    border: solid #e8f7f7 3px;
+}
+    }
+
+
+
+
+textarea{
+    width: 90%;
+    height: 80px;
+    position: relative;
+    left: 10px;
+    resize: none;
+    outline: none;
+}
+@media (min-width: 1px) and (max-width: 700px) {
+    textarea{
+        width: 90%;
+        height: 80px;
+        position: relative;
+        left: 10px;
+        top: -5%;
+        resize: none;
+        outline: none;
+    }
+}
+ 
+button{
+    background-color: #076a6e;
+    color: white;
+    width: 48%;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    border: solid #e8f7f7 3px;
+    border-radius: 5px;
+    outline: none;
+    top: -1%;
+    cursor: pointer;
+    margin-bottom: 1%;
+
+}
+button:hover {
+    background-color: #21a9af;
+}
+button:focus {
+    outline: 2px solid #e8f7f7;
+}
+@media (max-width: 700px) {
+    button{
+        width: 45%;
+        height: 40px;
+        position: relative;
+        left: 10px;
+        border: solid #e8f7f7 3px;
+        border-radius: 5px;
+        outline: none;
+        top: -5%;
+        cursor: pointer;
+        
+    }
+}
+@media (max-width: 700px) {
+    button + button {
+        margin-top: 1%;
+        margin-left: 0;
+    }
+}
+
+
+button + button {
+    margin-left: 1px;
+}
+
+label + input {
+   font-size: 15px;
+   background-color: #8bbfc1 !important /*لانه كان هناك مشكلة في تطبيق اللون على الخلفية بسبب وجود لون آخر موروث من عنصر آخر   !mportant استخدمت*/;
+   border: solid #e8f7f7 3px;
+   border-radius: 4px ;
+}
+.flex-link > a {
+    text-decoration: none;
+}
+
+.register-page  a{
+    width: 80%;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #21a9af;
+    font-weight: bolder;
+    background-color: #076a6e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .8s;
+    display: block;
+    width: 240px;
+    position: relative;
+    left: -5%;
+    margin-bottom: 1%;
+
+}
+.map{
+    position: relative;
+    width: 50%;
+    height:  400px;
+    border-radius: 10px;
+    border: solid #010303 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 13%;
+    
+}
+@media (min-width: 501px) and (max-width: 800px) {
+    .map{
+        position: relative;
+        width: 90%;
+        height:  400px;
+        border-radius: 10px;
+        border: solid #010303 5px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 25%;
+        
+    }
+}
+@media (min-width: 301px) and (max-width: 500px) {
+    .map{
+        position: relative;
+        width: 90%;
+        height:  250px;
+        border-radius: 10px;
+        border: solid #010303 5px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 42%;
+        
+    }
+}
+@media (min-width: 801px) and (max-width: 1024px) {
+    .map{
+        position: relative;
+        width: 70%;
+        height:  400px;
+        border-radius: 10px;
+        border: solid #010303 5px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 15%;
+        
+    }
+}
+@media (min-width:1500px) and (max-width: 2600px) {
+    .map{
+        position: relative;
+        width: 25%;
+        height:  580px;
+        border-radius: 10px;
+        border: solid #010303 5px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 7%;
+        
+    }
+}
